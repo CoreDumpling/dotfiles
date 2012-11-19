@@ -1,2 +1,5 @@
 [user]
 	email = coredumpling@gmail.com
+[color]
+	ui = auto
+	diff = auto
