@@ -196,3 +196,16 @@ alias l='ls -CF'                              #
 # }
 # 
 # alias cd=cd_func
+
+# Prompt
+BRIGHT="\033[1m"
+BLACK="\033[30m"
+RED="\033[31m"
+GREEN="\033[32m"
+YELLOW="\033[33m"
+BLUE="\033[34m"
+MAGENTA="\033[35m"
+CYAN="\033[36m"
+WHITE="\033[37m"
+RESET="\033[m"
+export PS1="${BRIGHT}${RED}\u${RESET}@${BRIGHT}${MAGENTA}\h${RESET}:${BRIGHT}${BLUE}\w${RESET}\$(__git_ps1 ' on ${YELLOW}%s')${RESET}\n$ "
