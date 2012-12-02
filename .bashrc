@@ -209,3 +209,6 @@ CYAN="\033[36m"
 WHITE="\033[37m"
 RESET="\033[m"
 export PS1="${BRIGHT}${RED}\u${RESET}@${BRIGHT}${MAGENTA}\h${RESET}:${BRIGHT}${BLUE}\w${RESET}\$(__git_ps1 ' on ${YELLOW}%s')${RESET}\n$ "
+
+# X11
+export DISPLAY=:0.0
