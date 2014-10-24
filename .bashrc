@@ -198,6 +198,8 @@ alias l='ls -CF'                              #
 # alias cd=cd_func
 
 # Prompt
+source ~/bin/git-completion.bash
+source ~/bin/git-prompt.sh
 BRIGHT="\033[1m"
 BLACK="\033[30m"
 RED="\033[31m"
